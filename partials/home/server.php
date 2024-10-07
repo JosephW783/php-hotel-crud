@@ -4,6 +4,6 @@
 include __DIR__. '/../database.php';
 
 // utls
-include __DIR__.'/../function.php';
+include __DIR__.'/../functions.php';
 
 $rooms = getAll($conn, 'stanze');
